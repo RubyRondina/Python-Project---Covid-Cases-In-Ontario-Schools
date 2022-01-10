@@ -56,16 +56,20 @@ The other challenge was that enrolment data for the 2020-2021 school year was no
 
 I thought it was important to first separate and then compare elementary schools and high schools in Ontario in case this differentiation makes a difference in answering our hypothesis.  
 
-The visualization and descriptive statistics below provide clear breakdown:
+The visualization and descriptive statistics below provide a clear breakdown:
 
 <p align="center"><img width="500" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/BarChartOnPrimarySecondarySchools.png"></p>
 
 <p align="center"><img width="1000" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/DescriptiveStatsPrimarySecondarySchools.png"></p>
 
-By creating an inner join of the Ontario Schools Covid dataset and the Ontario Schools Enrolment dataset and then creating a scatterplot, the answer to our question is very clear:
+There are 4 times more elementary schools than high schools in Ontario but average high school enrolment is double the elementary average enrolment. Max enrolment is also double for high schools than elementary.
+
+THen by creating an inner join of the Ontario Schools Covid dataset and the Ontario Schools Enrolment dataset and then creating a scatterplot, the answer to our question is very clear:
 
 <p align="center"><img width="1000" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/Answer-Scatterplot.png"></p>
 <p align="center"><img width="650" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/Answer2.png"></p>
+
+There is no correlation between high enrolment and high covid case counts, not even if you break it down by elementary and secondary schools as visualized by the relational plot above.
 
 These graphs show that most schools that had Covid cases had under 10 max cases in one day, regardless of their enrolment size.
 The elementary school with the highest enrolment in the province reported only the 2nd highest case count in one day in an elementary school (3rd highest overall if you also take high schools into account). And the school with the highest enrolment overall only had 3 cases as their max in one day.
@@ -80,14 +84,25 @@ These graphs show outliers very clearly. Let's see which schools these are
 
 <p align="center"><img width="1000" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/Outliers.png"></p>
 
-The outliers are a mix of elementary and secondary schools and are from different school boards (although the Toronto District School Board appears 6 times in the top 10. But that\'92s because the Toronto District School Board has the most number of schools in the province).
+The outliers are a mix of elementary and secondary schools and are from different school boards (although the Toronto District School Board appears 6 times in the top 10. But that's because the Toronto District School Board has the most number of schools in the province).
 
 I am still curious about the biggest outlier - Frank W Begley PS, which had 48 cases in one day. 
 
 <p align="center"><img width="700" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/MapOutlier.png"></p>
 
-Looking at this school in google maps, it is in Windsor, directly across the river from Detroit. You can swim it. This makes me wonder if frequent cross border travel to the US which had surging numbers early in the pandemic, leads to higher risk of infection.
+Looking at this school on google maps, it is in Windsor, directly across the river from Detroit. You can swim it. This makes me wonder if frequent cross border travel to the US which had surging numbers early in the pandemic, leads to higher risk of infection.
 
 However, none of the neighbouring schools that you can see on the map even show up in the top 10 of our scatterplot.   West view, Holy Rosary School and FJ Brennan Catholic High School each had a max case count of 1.  So there is clearly something more in play here than just enrolment numbers and geographical location of the school.  
 
-That being said, this study was conducted and was based on data from before the more transmittable Omicron variant took hold.  It would be useful to do this study again with data from December 2021 when Omicron became the dominant variant and when schools were still open. 
+
+### Recommendation and Notes
+
+This dataset is from a time before most of the Ontario population was vaccinated against Covid. Vaccines aside, we should take a multi-faceted approach to battling the spread of this disease.
+
+Our analysis shows that just because a student or staff member is in a school with high enrolment doesn’t necessarily mean they have a higher chance of getting Covid-19. Other factors come into play like masking, hand washing, ventilation systems, types of households students and staff belong to and other social behaviour etc.
+
+I do not recommend shrinking class sizes or school sizes as the one and only solution to protecting students and school staff against covid. We should use a multi-faceted approach.
+
+Last but not least, our method of using the Max Covid case counts in one day per school might not be the best measure of comparison. The study may have been different if we looked at total cases per school for the whole school year, not just each school's highest case count in one day. It just speaks to the limitation of our dataset since cases were reported by day and it is unclear if each count was of a new infected person or the same person with the same infection day after day. It might be worth finding data for total cases per school and comparing it with this study.
+
+That being said, this study was conducted and was based on data from before the more transmittable Omicron variant took hold.  Omicron is a game changer.  It would be useful to do this study again with data from December 2021 when Omicron became the dominant variant and when schools were still open.
