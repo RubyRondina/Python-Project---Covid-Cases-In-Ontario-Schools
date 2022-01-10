@@ -64,7 +64,7 @@ The visualization and descriptive statistics below provide a clear breakdown:
 
 There are 4 times more elementary schools than high schools in Ontario but average high school enrolment is double the elementary average enrolment. Max enrolment is also double for high schools than elementary.
 
-THen by creating an inner join of the Ontario Schools Covid dataset and the Ontario Schools Enrolment dataset and then creating a scatterplot, the answer to our question is very clear:
+Then by creating an inner join of the Ontario Schools Covid dataset and the Ontario Schools Enrolment dataset and then creating a scatterplot, the answer to our question is very clear:
 
 <p align="center"><img width="1000" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/Answer-Scatterplot.png"></p>
 <p align="center"><img width="650" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/Answer2.png"></p>
