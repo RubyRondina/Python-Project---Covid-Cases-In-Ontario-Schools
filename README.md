@@ -58,7 +58,11 @@ I thought it was important to first separate and then compare elementary schools
 
 The visualization and descriptive statistics below provide a clear breakdown:
 
+<h3 align="center">Number of Elementary Schools and High Schools in Ontario</h3>
+
 <p align="center"><img width="500" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/BarChartOnPrimarySecondarySchools.png"></p>
+
+<h3 align="center">Comparing Mean and Max Enrolment for Elementary and High Schools</h3>  
 
 <p align="center"><img width="1000" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/DescriptiveStatsPrimarySecondarySchools.png"></p>
 
