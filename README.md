@@ -1,4 +1,5 @@
-# Python Project: Covid Cases In Ontario Public Schools
+# Python Project: 
+# Covid Cases In Ontario Public Schools
 
 <p align="center"><img width="600" height="" src="https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/covidclassroom_1.jpg"></p>
 
@@ -31,7 +32,8 @@ I was able to find an [Ontario Schools Enrolment dataset](https://open.canada.ca
 
 <br>
 
-## Question: Does High Enrolment correlate with Higher Number of Covid Cases in Ontario Schools?
+## Question: 
+### Does High Enrolment correlate with Higher Number of Covid Cases in Ontario Schools?
 **Hypothesis**:  Yes, high enrolment correlates with higher number of covid cases in Ontario Public Schools simply because the general story at the time was that the virus spreads fast and furious in large crowds of people.
 
 <br>
