@@ -6,29 +6,20 @@
 
 **Project Creation Date**:  *November 2021*
 
-This was a bootcamp project to carry out the entire data analysis process in Python.
+An analysis on a possible correlation between high enrolment numbers and high covid cases in Ontario public schools. 
 
-The task was to find a promising dataset and to determine a good question to ask of the data.
-
-The objectives were as follows:
-- Perform an exploratory analysis
-- Generate professional-quality figures
-- Produce a high-level overview of the data using aggregation and statistics
-- Answer a meaningful question about the dataset in question
-
+Jump directly to my **Python Jupyter Notebook [here](https://github.com/RubyRondina/Python-Project---Covid-Cases-In-Ontario-Schools/blob/main/NotebookAndViz/Python%20Project%20-%20Covid%20in%20Ontario%20Schools.ipynb)**
 <br>
 
 ## Dataset
 
 I sourced an [Ontario Public Schools Covid dataset](https://data.ontario.ca/dataset/summary-of-cases-in-schools) from the [Ontario Data website](https://data.ontario.ca/) and specifically studied the Covid data for the 2020-2021 school year.
 
-It contained the date, school name, school ID, school board, municipality and the total confirmed number of cases for each day that schools were open.
+It contained the date, school name, school ID, school board, municipality and the total number of confirmed cases for each day that schools were open.
 
 **NB: this was before the Omicron variant became the dominant strain in the province.**
 
-Although the dataset was clean and very easy to understand, it was missing additional information that I felt could potentially provide a deeper understanding of how this virus spreads.
-
-I was able to find an [Ontario Schools Enrolment dataset](https://open.canada.ca/data/en/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6) to provide another dimension to this story and joined both tables together. 
+I also obtained an [Ontario Schools Enrolment dataset](https://open.canada.ca/data/en/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6) to provide another dimension to this story and joined both tables together. 
 
 <br>
 
